@@ -1,0 +1,102 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+.bgimage{
+    background-image: url("img1.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+.menu
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+    width: 25%;
+    line-height: 100px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left: 70px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rightmenu
+{
+    width: 75%;
+    height:100px;
+    float: right;
+}
+.rightmenu ul li{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.rightmenu ul{
+    margin-left: 300px;
+}
+#firstlist{
+    color: orange;
+}
+.rightmenu ul li:hover{
+    color: orange;
+    transition: 0.6s ease;
+}
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    
+}
+.text h4{
+    font-size:20px ;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 14px;
+}
+.text h3{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#button1{
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid white;
+}
+#button2{
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;/*for aliging text in center*/
+    border: 3px solid white;
+    width:150px; /*for aliging text perfectly from left and right*/
+    font-family: 'Courier New', Courier, monospace;
+
+}
